@@ -25,6 +25,23 @@ body {
 .center {
 	text-align: center;
 }
+
+/*Tag Cloud Styles*/
+.tc-tag{display: inline;
+padding: .2em .6em .3em;
+font-size: 75%;
+font-weight: bold;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: .25em;background-color: #428bca;}
+.tc-tag  a, .tc-tag  a:visited { color: #fff; }
+.tc-tag:hover {background-color: #84AED3; }
+
+
+
 footer {
 	padding-top: 40px;
 	padding-bottom: 30px;
@@ -439,7 +456,12 @@ footer {
 							{/block:Pages}
 						{/block:HasPages}
 					</ul>
+					<!-- Tag Cloud Code HERE 
+					Uses http://post-theory.com/tumblr-tag-cloud-javascript
+					--------------------->
 <div id="tagCloud"></div><script type="text/javascript" src="http://post-theory.com/public/tagcloud/ucoelearning?sort=frequency&scale=false&nowrap=soft&pad=4&tagct=%20(%24)" async="async"></script>
+<!-- -------------------------- Tag Cloud Code END HERE -->
+
 					<form action="/search" method="get" class="form-horizontal sidebar-item">
 							<div class="input-group">
 									<span class="input-group-addon">
