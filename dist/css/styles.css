@@ -1,0 +1,185 @@
+body {
+	padding-top: 70px;
+	padding-bottom: 40px;
+	font-family: "Helvetica Neue", Helvetica, 'Roboto', sans-serif;
+}
+.center {
+	text-align: center;
+}
+/*Tag Cloud Styles*/
+.tc-tag {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: bold;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+	background-color: #11B7E2;
+}
+.tc-tag a, .tc-tag a:visited {
+	color: #fff;
+}
+.tc-tag:hover {
+	background-color: #84AED3;
+}
+footer {
+	padding-top: 40px;
+	padding-bottom: 30px;
+	margin-top: 100px;
+	text-align: center;
+	border-top: 1px solid #e5e5e5;
+}
+.sidebar-item {
+	margin-top: 10px;
+}
+.tumblr-tags {
+	margin-top: 10px;
+	margin-bottom: -5px;
+	padding: 20px;
+}
+.tumblr-tags .glyphicon {
+	top: 3px;
+	right: 5px;
+	position: relative;
+}
+.btn-img {
+	max-height: 17px;
+}
+.btn-img, a.sidebar-item .glyphicon {
+	float: left;
+	left: 10px;
+	position: relative;
+	top: 2px;
+}
+.link-post {
+	margin-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	white-space: normal;
+}
+.thumbnail {
+	margin-bottom: 15px;
+}
+.photoset {
+	width: 100%;
+	height: 100%;
+}
+.photoset .caption {
+	visibility: hidden;
+	opacity: 0;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	z-index: 10;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	color: #ffffff;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+	transition: visibility 0.2s linear, opacity 0.2s linear;
+}
+.photoset:hover .caption {
+	visibility: visible;
+	opacity: 1;
+}
+.caption {
+	margin-top: 1em;
+}
+.caption p {
+	margin: 0 0 1em 0;
+}
+.caption blockquote p {
+	font-size: 1em;
+}
+.caption blockquote {
+	margin: 0 0 1em 0;
+	padding: 0 0 0 15px;
+}
+/*Navbar Styles*/
+.navbar-default {
+	background-color: #fff;
+	border-color: #fff;
+	margin: 0 0 15px 0;
+}
+.thickbar {
+	height: 1.1em;
+	background-color: black;
+	width: 100%;
+	float: left;
+}
+.thinbar {
+	height: .25em;
+	background-color: black;
+	width: 100%;
+}
+.navbar {
+	margin-bottom: 40px;
+}
+.navbar-brand h1 {
+	font-family: "Helvetica Neue", Helvetica, 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #000;
+}
+.navbar-brand {
+	float: left;
+	padding: 0 15px 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
+}
+#dashboard_iframe {
+	display: none;
+}
+.logo{text-align:center;margin:10px 0;}
+
+.blueDivider{
+	
+	height:1px;
+	background-color:#11B7E2;
+	width:100%;
+	margin:15px 0;
+	
+	}
+a {
+color: #11B7E2;
+text-decoration: none;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #11B7E2;
+border-color: #11B7E2;
+}
+
+.icon li{
+	display: block;
+	float: left;
+	height: 94px;	
+	width: 94px;
+	text-indent: -9999;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.facebook{
+	background-image: url(https://31.media.tumblr.com/36af75d58e315a7db7eaddaff3fb7a28/tumblr_mx99euAYVU1t17rnko1_400.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+.twitter{	background-image: url(https://31.media.tumblr.com/36af75d58e315a7db7eaddaff3fb7a28/tumblr_mx99euAYVU1t17rnko1_400.png);
+}
+.git{	background-image: url(https://31.media.tumblr.com/36af75d58e315a7db7eaddaff3fb7a28/tumblr_mx99euAYVU1t17rnko1_400.png);
+}
+
+/*Sidebar Affix widths*/
+@media(min-width:992px){.sidebar.affix {
+	width:293px;
+}}
+@media(min-width:1200px){.sidebar.affix {
+	width:360px;
+}}
